@@ -11,3 +11,5 @@ outputs/
 .env
 .env.*
 .vercel/
+
+.vercel

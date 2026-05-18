@@ -1,8 +1,8 @@
-# Signal Foundry Homepage PRD
+# BattleLabs.co Homepage PRD
 
 ## Goal
 
-Build a cinematic, founder-facing Signal Foundry homepage that feels like a complete applied AI lab / founder operating system company site.
+Build a cinematic, founder-facing BattleLabs.co homepage that feels like a complete applied AI lab / founder operating system company site.
 
 ## Required Stack
 

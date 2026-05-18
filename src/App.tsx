@@ -62,7 +62,7 @@ function Reveal({
 function TextCta({ children, dark = false }: { children: ReactNode; dark?: boolean }) {
   return (
     <a
-      href="mailto:hello@signalfoundry.ai"
+      href="mailto:hello@battlelabs.co"
       className={`group inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.18em] transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 ${
         dark
           ? 'text-[var(--paper)] focus-visible:outline-[var(--paper)]'
@@ -113,7 +113,7 @@ function HeroSection() {
           <span className="grid h-9 w-9 place-items-center rounded-full bg-[var(--ink)] text-[var(--paper)]">
             <Sparkles className="h-4 w-4" />
           </span>
-          <span className="hidden sm:inline">Signal Foundry</span>
+          <span className="hidden sm:inline">BattleLabs.co</span>
         </a>
         <div className="flex min-w-0 items-center gap-3 sm:gap-7">
           <a href="#about" className="transition-opacity hover:opacity-70">
@@ -127,7 +127,7 @@ function HeroSection() {
           </a>
         </div>
         <a
-          href="mailto:hello@signalfoundry.ai"
+          href="mailto:hello@battlelabs.co"
           className="shrink-0 rounded-full bg-[var(--ink)] px-3 py-3 text-[var(--paper)] transition-transform duration-300 hover:-translate-y-0.5 sm:px-4"
         >
           Get Signal
@@ -149,7 +149,7 @@ function HeroSection() {
             AI that turns ideas into operating companies.
           </h1>
           <p className="mt-6 max-w-[560px] font-sans text-[clamp(1rem,1.7vw,1.28rem)] leading-[1.45] text-white/82">
-            Signal Foundry is an applied AI lab building the company brain, launch packet, and agent handoff for founders who want to move from insight to execution.
+            BattleLabs.co is an applied AI lab building the company brain, launch packet, and agent handoff for founders who want to move from insight to execution.
           </p>
           <div className="mt-8">
             <TextCta dark>Begin the handoff</TextCta>
@@ -313,7 +313,7 @@ function ClosingSection() {
 
         <footer className="mt-24 font-sans">
           <div className="flex flex-col gap-5 border-t border-white/28 pt-7 sm:flex-row sm:items-center sm:justify-between">
-            <span className="text-[1.2rem] font-semibold tracking-[-0.02em]">Signal Foundry</span>
+            <span className="text-[1.2rem] font-semibold tracking-[-0.02em]">BattleLabs.co</span>
             <span className="text-sm text-white/66">Applied intelligence for company creation.</span>
           </div>
         </footer>

@@ -7,7 +7,7 @@ const outDir = path.join(root, 'verification');
 fs.mkdirSync(outDir, { recursive: true });
 
 const expected = {
-  title: 'Signal Foundry',
+  title: 'BattleLabs.co',
   heroVideo:
     'https://d8j0ntlcm91z4.cloudfront.net/user_30c6yRkxUog0TZ5432rCR7HN4Pe/hf_20260501_062927_2b8ce586-f555-4610-88ae-b2d3752ede3b.mp4',
   heroPoster: 'https://playground.bravebrand.com/assets/backgrounds/signal-foundry-painted-city-hero.webp',
@@ -48,9 +48,9 @@ async function inspectPage(page, label, viewport) {
 
     return {
       title: document.title,
-      hasBrand: /Signal Foundry/.test(text),
+      hasBrand: /BattleLabs\.co/.test(text),
       hasHeroHeadline: /AI that turns ideas into operating companies\./.test(text),
-      hasHeroCopy: /Signal Foundry is an applied AI lab/.test(text),
+      hasHeroCopy: /BattleLabs\.co is an applied AI lab/.test(text),
       hasMainHeadline: /From founder insight to agent-ready execution\./.test(text),
       hasManifestoHeadline: /Where starting up a real world company is as easy as playing a video game\./.test(text),
       hasSystemHeadline: /A company brain, not another chat thread\./.test(text),
@@ -92,7 +92,7 @@ function collectFailures(result, label) {
   const failures = [];
 
   if (result.title !== expected.title) failures.push(`${label}: incorrect title ${result.title}`);
-  if (!result.hasBrand) failures.push(`${label}: missing Signal Foundry brand`);
+  if (!result.hasBrand) failures.push(`${label}: missing BattleLabs.co brand`);
   if (!result.hasHeroHeadline) failures.push(`${label}: missing hero headline`);
   if (!result.hasHeroCopy) failures.push(`${label}: missing hero support copy`);
   if (!result.hasMainHeadline) failures.push(`${label}: missing support headline`);

@@ -13,3 +13,4 @@ outputs/
 .vercel/
 
 .vercel
+.env*.local
